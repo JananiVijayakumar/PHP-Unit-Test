@@ -35,16 +35,4 @@ class BinarySearchTest extends TestCase
         $this->assertEquals($result, -1, $message = "Test Sucessfull!!");
         echo $message;
     }
-
-    /**
-     * @test for wrong value
-     */
-
-    public function givenValueIsFalseShouldReturnFalse()
-    {
-        $binary = new BinarySearch();
-        $result = $binary->binarySearch(3, $this->array);
-        $this->assertEquals($result, 1, $message = "Test Failed!!");
-        echo $message;
-    }
 }

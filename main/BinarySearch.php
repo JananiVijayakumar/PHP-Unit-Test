@@ -7,7 +7,7 @@
  */
 class BinarySearch
 {
-    function binarySearch($value, $myArray)
+    public function binarySearch($value, $myArray)
     {
         $start = 0;
         $end = count($myArray) - 1;
